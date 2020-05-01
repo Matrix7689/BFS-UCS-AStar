@@ -50,7 +50,7 @@ Here is a sample output.txt file:
 ## Setup
 
 - Simply download this project as a zip, unzip it.
-- Use any C++11 IDE or event command prompt, compile and run "bfs_ucs_astar.cpp".
+- Use any C++11 IDE or even the command prompt, compile and run "bfs_ucs_astar.cpp".
 - The program will auto-generate an "output.txt" file with the results inside the text file.
 
 ## Test Cases
