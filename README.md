@@ -1,13 +1,13 @@
 # Breadth First Search, Uniform Cost Search and A* Search
 
-A *C++11 program* that will take an input file that describes the terrain map, landing site, target sites, and characteristics of a Mars rover robot. For each target site, we find the *optimal* (shortest) safe path from the landing site to that target. A path is composed of a sequence of elementary moves. Each elementary move consists of moving the rover to one of its 8 neighbors.
+A **C++11 program** that will take an input file that describes the terrain map, landing site, target sites, and characteristics of a Mars rover robot. For each target site, we find the **optimal** (shortest) safe path from the landing site to that target. A path is composed of a sequence of elementary moves. Each elementary move consists of moving the rover to one of its 8 neighbors.
 
 To find the solution we will use the following algorithms:
 - Breadth-first search
 - Uniform-cost search
 - A* search
 
-PS. This was homework #1 of CSCI 561 - Fall 2019 - Foundations of Artificial Intelligence - under Professor Laurent Itti.
+PS. This was homework #1 of CSCI 561 - Fall 2019 - Foundations of Artificial Intelligence - under [Professor Laurent Itti](http://ilab.usc.edu/itti/).
 
 ## input.txt Format
 
@@ -49,16 +49,18 @@ Here is a sample output.txt file:
 
 ## Setup
 
-Simply make a folder with the "bfs_ucs_astar.cpp", "input.txt" files in the same directory.
-Use any C++11 IDE or event command prompt, compile and run "bfs_ucs_astar.cpp".
-The program will auto-generate an "output.txt" file.
+- Simply download this project as a zip, unzip it.
+- Use any C++11 IDE or event command prompt, compile and run "bfs_ucs_astar.cpp".
+- The program will auto-generate an "output.txt" file with the results inside the text file.
 
 ## Test Cases
 
-"more_test_cases" folder includes 50 input.txt files with the expected output.txt files as well. Simply copy the contents of the file and paste it inside "input.txt" in order to try a test case.
+- "more_test_cases" folder includes 50 *input.txt* files with the expected *output.txt* files.
+- Combination of BFS, UCS and A* test cases with grid sizes upto 100x100.
+- Simply copy the contents of the file and paste it inside "input.txt" in order to try a test case OR rename the file to *input.txt*.
 
 ## Miscellaneous Notes
-- The program will only work on a file named "input.txt", *NOT* "input50.txt" or "inputXYZ.txt".
+- The program will only work on a file named "input.txt", **NOT** "input50.txt" or "inputXYZ.txt".
 - The program will overwrite the "output.txt" file if one already exists!
 - UCS and A* test cases could take more time depending on the input grid.
 - The contents of "input.txt" should strictly follow the format mentioned [above](#inputtxt-format), otherwise you may run into an unexpected error.
