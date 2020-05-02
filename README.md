@@ -9,7 +9,13 @@ To find the solution we will use the following algorithms:
 
 PS. This was homework #1 of CSCI 561 - Fall 2019 - Foundations of Artificial Intelligence - under [Professor Laurent Itti](http://ilab.usc.edu/itti/).
 
-## input.txt Format
+## Setup
+
+- Download this project as a zip, unzip it.
+- Use any C++11 IDE or even the command prompt, compile and run "bfs_ucs_astar.cpp".
+- The program will auto-generate an "output.txt" file with the results inside the text file.
+
+### input.txt Format
 
 - **First line:** Instruction of which algorithm to use, as a string: BFS, UCS or A*
 - **Second line:** Two strictly positive 32-bit integers separated by one space character, for "W H" the number of columns (width) and rows (height), in cells, of the map.
@@ -36,7 +42,7 @@ A*
 0 0 0 0 0 0 0 0
 ```
 
-## output.txt Format
+### output.txt Format
 
 This file is auto-generated on runtime. 
 - **N lines:** Here we report the paths in the same order as the targets were given in the input.txt file. We write out one line per target. Each line should contain a sequence of X,Y pairs of coordinates of cells visited by the rover to travel from the landing site to the corresponding target site for that line. If no solution was found (target site unreachable by rover from given landing site), we write a single word FAIL in the corresponding line.
@@ -47,20 +53,15 @@ Here is a sample output.txt file:
 4,4 5,4 6,3
 ```
 
-## Setup
-
-- Simply download this project as a zip, unzip it.
-- Use any C++11 IDE or even the command prompt, compile and run "bfs_ucs_astar.cpp".
-- The program will auto-generate an "output.txt" file with the results inside the text file.
-
 ## Test Cases
 
-- "more_test_cases" folder includes 50 *input.txt* files with the expected *output.txt* files.
+- The "more_test_cases" folder includes 50 *input.txt* files with the expected *output.txt* files.
 - Combination of BFS, UCS and A* test cases with grid sizes upto 100x100.
-- Simply copy the contents of the file and paste it inside "input.txt" in order to try a test case OR rename the file to *input.txt*.
+- To try out a test case either rename the file to *input.txt* or copy the contents of the file and paste it inside "input.txt".
 
 ## Miscellaneous Notes
 - The program will only work on a file named "input.txt", **NOT** "input50.txt" or "inputXYZ.txt".
+- The "input.txt" file has to be on the same directory level as that of "bfs_ucs_astar.cpp".
 - The program will overwrite the "output.txt" file if one already exists!
 - UCS and A* test cases could take more time depending on the input grid.
 - The contents of "input.txt" should strictly follow the format mentioned [above](#inputtxt-format), otherwise you may run into an unexpected error.
