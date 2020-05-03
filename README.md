@@ -1,6 +1,6 @@
 # Breadth First Search, Uniform Cost Search and A* Search
 
-![Search Animation](https://i.imgur.com/cU3iZYV.gif)
+<div align="center">![Search Animation](https://i.imgur.com/05xfSeq.gif)</div>
 
 A **C++11 program** that will take an input file that describes the terrain map, landing site, target sites, and characteristics of a Mars rover robot and for each target site, it will find the **optimal** (shortest) safe path from the landing site to that target. A path is composed of a sequence of elementary moves. Each elementary move consists of moving the rover to one of its 8 neighbors.
 
