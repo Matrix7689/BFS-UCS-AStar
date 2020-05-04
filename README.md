@@ -13,8 +13,8 @@ PS. This was homework #1 of CSCI 561 - Fall 2019 - Foundations of Artificial Int
 
 ## Setup
 
-- Download this project as a zip, unzip it.
-- Use any C++11 IDE or even the command prompt, compile and run "bfs_ucs_astar.cpp".
+- [Download](https://github.com/Matrix7689/BFS-UCS-AStar/releases) this executable file (Windows Only).
+- Run "bfs_ucs_astar.exe".
 - The program will auto-generate an "output.txt" file with the results inside the text file.
 
 ### input.txt Format
