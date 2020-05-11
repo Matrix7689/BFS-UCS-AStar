@@ -13,6 +13,7 @@ PS. This was homework #1 of CSCI 561 - Fall 2019 - Foundations of Artificial Int
 
 ## Setup
 
+- [MinGW](https://sourceforge.net/projects/mingw/) is required in order to run the executable file.
 - [Download](https://github.com/Matrix7689/BFS-UCS-AStar/releases) this executable file (Windows Only).
 - Run "bfs_ucs_astar.exe".
 - The program will auto-generate an "output.txt" file with the results inside the text file.
